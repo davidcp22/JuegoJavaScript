@@ -1,0 +1,19 @@
+.tablero{
+
+	border-style: solid;
+	border-left-color: black;
+	border-top-color:  black;
+	border-right-color: black;
+	border-bottom-color: black;
+
+}
+
+h1{
+	color: green;
+	font: oblique bold 120% cursive;
+}
+
+.marcador{
+
+
+}
