@@ -1,67 +1,88 @@
+<!DOCTYPE html>
 <html>
 <head>
 	<title>FUTPAZ</title>
 	<link rel="stylesheet" href="Style.css"/>
 </head>
-<body>
+<body >
 	<center>
 
 		<h1>FUTPAZ</h1>
 		<table>
 			<tr>
-				<td class="tablero"><img src="fondo.PNG" id="c0" onclick="box(0)" /></td>
-				<td class="tablero"><img src="fondo.PNG" id="c1" onclick="box(0)" /></td>
-				<td class="tablero"><img src="fondo.PNG" id="c2" onclick="box(0)" /></td>
-				<td class="tablero"><img src="fondo.PNG" id="c3" onclick="box(0)" /></td>
-				<td class="tablero"><img src="fondo.PNG" id="c4" onclick="box(0)" /></td>
+
+
+				<td class="tablero"><img src="fondo.PNG" id="c0" onclick="juego(0)" /></td>
+				<td class="tablero"><img src="fondo.PNG" id="c1" onclick="juego(1)" /></td>
+				<td class="tablero"><img src="fondo.PNG" id="c2" onclick="juego(2)" /></td>
+				<td class="tablero"><img src="fondo.PNG" id="c3" onclick="juego(3)" /></td>
+				<td class="tablero"><img src="fondo.PNG" id="c4" onclick="juego(4)" /></td>
 
 			</tr>	
 			<tr>
-				<td class="tablero"><img src="fondo.PNG" id="c5" onclick="box(0)" /></td>
-				<td class="tablero"><img src="fondo.PNG" id="c6" onclick="box(0)" /></td>
-				<td class="tablero"><img src="fondo.PNG" id="c7" onclick="box(0)" /></td>
-				<td class="tablero"><img src="fondo.PNG" id="c8" onclick="box(0)" /></td>
-				<td class="tablero"><img src="fondo.PNG" id="c9" onclick="box(0)" /></td>
+				<td class="tablero"><img src="fondo.PNG" id="c5" onclick="juego(5)" /></td>
+				<td class="tablero"><img src="fondo.PNG" id="c6" onclick="juego(6)" /></td>
+				<td class="tablero"><img src="fondo.PNG" id="c7" onclick="juego(7)" /></td>
+				<td class="tablero"><img src="fondo.PNG" id="c8" onclick="juego(8)" /></td>
+				<td class="tablero"><img src="fondo.PNG" id="c9" onclick="juego(9)" /></td>
 
 			</tr>
 			<tr>
-				<td class="tablero"><img src="fondo.PNG" id="c10" onclick="box(0)" /></td>
-				<td class="tablero"><img src="fondo.PNG" id="c11" onclick="box(0)" /></td>
-				<td class="tablero"><img src="fondo.PNG" id="c12" onclick="box(0)" /></td>
-				<td class="tablero"><img src="fondo.PNG" id="c13" onclick="box(0)" /></td>
-				<td class="tablero"><img src="fondo.PNG" id="c14" onclick="box(0)" /></td>
+				<td class="tablero"><img src="fondo.PNG" id="c10" onclick="juego(10)" /></td>
+				<td class="tablero"><img src="fondo.PNG" id="c11" onclick="juego(11)" /></td>
+				<td class="tablero"><img src="fondo.PNG" id="c12" onclick="juego(12)" /></td>
+				<td class="tablero"><img src="fondo.PNG" id="c13" onclick="juego(13)" /></td>
+				<td class="tablero"><img src="fondo.PNG" id="c14" onclick="juego(14)" /></td>
 
 			</tr>
 			<tr>
-				<td class="tablero"><img src="fondo.PNG" id="c15" onclick="box(0)" /></td>
-				<td class="tablero"><img src="fondo.PNG" id="c16" onclick="box(0)" /></td>
-				<td class="tablero"><img src="fondo.PNG" id="c17" onclick="box(0)" /></td>
-				<td class="tablero"><img src="fondo.PNG" id="c18" onclick="box(0)" /></td>
-				<td class="tablero"><img src="fondo.PNG" id="c19" onclick="box(0)" /></td>
+				<td class="tablero"><img src="fondo.PNG" id="c15" onclick="juego(15)" /></td>
+				<td class="tablero"><img src="fondo.PNG" id="c16" onclick="juego(16)" /></td>
+				<td class="tablero"><img src="fondo.PNG" id="c17" onclick="juego(17)" /></td>
+				<td class="tablero"><img src="fondo.PNG" id="c18" onclick="juego(18)" /></td>
+				<td class="tablero"><img src="fondo.PNG" id="c19" onclick="juego(19)" /></td>
 			</tr>
 			<tr>
-				<td class="tablero"><img src="fondo.PNG" id="c20" onclick="box(0)" /></td>
-				<td class="tablero"><img src="fondo.PNG" id="c21" onclick="box(0)" /></td>
-				<td class="tablero"><img src="fondo.PNG" id="c22" onclick="box(0)" /></td>
-				<td class="tablero"><img src="fondo.PNG" id="c23" onclick="box(0)" /></td>
-				<td class="tablero"><img src="fondo.PNG" id="c24" onclick="box(0)" /></td>
+				<td class="tablero"><img src="fondo.PNG" id="c20" onclick="juego(20)" /></td>
+				<td class="tablero"><img src="fondo.PNG" id="c21" onclick="juego(21)" /></td>
+				<td class="tablero"><img src="fondo.PNG" id="c22" onclick="juego(22)" /></td>
+				<td class="tablero"><img src="fondo.PNG" id="c23" onclick="juego(23)" /></td>
+				<td class="tablero"><img src="fondo.PNG" id="c24" onclick="juego(24)" /></td>
 				
 			</tr>
     		
     		<tr>
-    		<th>Jugador 1</th>  
+    		<th>NACIONAL</th>  
     		<td>&nbsp;</td> 
     		<td>&nbsp;</td> 
     		<td>&nbsp;</td>
-    		<th>Jugador 2</th>  
+    		<th>MEDELLIN</th>  
+ 			</tr>
+ 			<tr>
+  			  <td><img src="nacional.PNG" /></td>  
+
+   			  <td>&nbsp;</td>
+   			  <td>&nbsp;</td>
+   			  <td>&nbsp;</td>
+   			 <td><img src="medellin.PNG" /></td>  
+ 			</tr>
+ 			<tr>
+    		<td><div class="marcador" id="ptsjug1">0</div></td>  
+    		<td>&nbsp;</td> 
+    		<td>&nbsp;</td>
+    		<td>&nbsp;</td>
+    		<td><div class="marcador" id="ptsjug2">0</div></td>  
  			</tr>
 
 		</table>
 		<br />
-		<input type="button" value="Reiniciar puntaje"  />
+		<input type="button" value="Limpiar Tablero" onclick="limpiar()" />
+		<input type="button" value="Reiniciar puntaje" onclick="reiniciar()" />
 
+
+		
 
 	</center>
-
+	<script type="text/javascript" src="MyScript.js"></script>
 </body>
 </html>
